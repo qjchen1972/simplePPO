@@ -20,11 +20,6 @@ To run the program, you will also need the game ROM file for "Street Fighter II:
 
 Once you have legally obtained the game ROM file, copy it to the aforementioned gym-retro game data folder and rename it to `rom.md`. At this point, the environment setup is complete.
 
-Note: If you want to record videos of the AI agent's gameplay, you will need to install [ffmpeg](https://ffmpeg.org/).
-
-```bash
-conda install ffmpeg
-```
 Note: If you want to create more game states, you can use the following command(For example, saving a state can allow two people to fight against each other)
 ```
 python play -m 3
